@@ -11,13 +11,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
      "@vitejs/plugin-react": "^5.0.0",
-     //ADD THESE THREE LINES:
      "tailwindcss": "^4.0.0",
      "autoprefixer": "^10.4.13",
      "postcss": "^8.4.21"    
   },
   "devDependencies": {
     "vite": "^5.0.0"
-    // The three Tailwind packages are now GONE from here!
   }
 }

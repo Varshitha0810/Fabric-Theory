@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --peach: #FFE5D9;
+  --peach-dark: #FF8A65;
+  --ft-text: #5A3E36;
+}
+
+body {
+  background: var(--peach);
+  color: var(--ft-text);
+}
+
+/* small helpers */
+.btn-peach { background-color: var(--peach-dark); color: white; }
+.badge-peach { background-color: #FFB7A0; color: white; }
